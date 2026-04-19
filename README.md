@@ -1,2 +1,2 @@
 # Capstone_project_employee_management_system
-Employee Management System built using Python, implementing SAP ABAP concepts like data handling and CRUD operations. It allows users to add, view, update, and delete employee records efficiently, simulating real-world SAP-based business processes.
+Employee Management System built using Python, simulating SAP ABAP concepts such as internal tables, Open SQL operations, and ALV-style reporting. It supports CRUD operations for managing employee records, reflecting real-world SAP business processes.
