@@ -16,12 +16,12 @@ def add_employee():
     }
     
     employees.append(employee)
-    print("✅ Employee added successfully!\n")
+    print("Employee added successfully!\n")
 
 
 def view_employees():
     if not employees:
-        print("⚠ No employees found.\n")
+        print("No employees found.\n")
         return
     
     print("\n{:<10} {:<20} {:<15} {:<10}".format("EMP_ID", "NAME", "DEPT", "SALARY"))
@@ -42,10 +42,10 @@ def update_employee():
             emp["name"] = input("Enter new name: ")
             emp["dept"] = input("Enter new department: ")
             emp["salary"] = input("Enter new salary: ")
-            print("✅ Employee updated!\n")
+            print("Employee updated!\n")
             return
     
-    print("❌ Employee not found.\n")
+    print("Employee not found.\n")
 
 
 def delete_employee():
@@ -54,10 +54,10 @@ def delete_employee():
     for emp in employees:
         if emp["id"] == emp_id:
             employees.remove(emp)
-            print("✅ Employee deleted!\n")
+            print("Employee deleted!\n")
             return
     
-    print("❌ Employee not found.\n")
+    print("Employee not found.\n")
 
 
 def menu():
